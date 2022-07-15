@@ -83,6 +83,7 @@ The "dynamic" or default layout is rendered as `<LayoutToRender>`
 ## Layout and Example Chart Configurations
 
 **Configs for each specific chart are available on the left side of the pages linked below**
+<br>
 _This is referencing bar chart configs as an example_
 
 - [Layout Configs] (https://plotly.com/javascript/reference/layout/#layout-margin)
