@@ -26,6 +26,21 @@ It's recommended to have a newer version of node available. I have had success w
 
 - `npm start` also creates the `dev` folder in the file tree
 
+### File tree & imports overview
+
+1. `app.html` loads in `app.js` via `<script src="./app.js" type="module" defer></script>`
+2. `app.js` defines what container from the html to load the app into
+
+- `app.js` imports and loads in the react component passed from `/src/js/apps/app-inline.jsx`
+
+3. `app-inline.jsx` lazy imports the available layouts and renders these layouts as a mirror to how layouts are rendered via AC results & Chameleon
+
+- a default (fallback) layout is defined
+- a "dynamic" layout is defined (hardcoded for now) as the `FAKE_OBJ_VALUE` variable
+- the "dynamic" or default layout is rendered as `<LayoutToRender>`
+
+**_Changing the `FAKE_OBJ_VALUE` value to one of the other options in the `const layouts` object will change which layout is rendered by the app_**
+
 ### Additional Scripts
 
 **Prettier**
