@@ -29,17 +29,30 @@ It's recommended to have a newer version of node available. I have had success w
 ## File tree & imports overview
 
 1. `app.html` loads in `app.js` via `<script src="./app.js" type="module" defer></script>`
+![image](https://user-images.githubusercontent.com/9575252/179277657-e3999687-f79c-4168-9fd7-3bda3dc5475f.png)
+
 2. `app.js` defines what container from the html to load the app into
+![image](https://user-images.githubusercontent.com/9575252/179277624-a4115e3f-e549-4f9d-b1e4-8e7d06ff0ec3.png)
 
 - `app.js` imports and loads in the react component passed from `/src/js/apps/app-inline.jsx`
 
 3. `app-inline.jsx` lazy imports the available layouts and renders these layouts as a mirror to how layouts are rendered via AC results & Chameleon
+![image](https://user-images.githubusercontent.com/9575252/179277722-d470d20b-beb7-4791-a1c5-e0b8e6c92088.png)
 
 - a default (fallback) layout is defined
-- a "dynamic" layout is defined (hardcoded for now) as the `FAKE_OBJ_VALUE` variable
-- the "dynamic" or default layout is rendered as `<LayoutToRender>`
+![image](https://user-images.githubusercontent.com/9575252/179277775-f7fa8fd3-a72a-4cb9-8a4c-3988fab65a39.png)
 
-_Changing the `FAKE_OBJ_VALUE` value to one of the other options in the `const layouts` object will change which layout is rendered by the app_
+- a "dynamic" layout is defined (hardcoded for now) as the `FAKE_OBJ_VALUE` variable
+![image](https://user-images.githubusercontent.com/9575252/179277822-b2f5dfb9-8970-4aa4-a0cc-e265ceeab960.png)
+
+- the "dynamic" or default layout is rendered as `<LayoutToRender>`
+![image](https://user-images.githubusercontent.com/9575252/179278048-0cd5bdcf-8daf-4aef-846e-2db2096ae736.png)
+
+- Changing the `FAKE_OBJ_VALUE` value to one of the other options in the `const layouts` object will change which layout is rendered by the app
+![image](https://user-images.githubusercontent.com/9575252/179278258-99c54149-f732-4c33-87a7-8509127244de.png)
+
+- the "dynamic" or default layout is rendered as `<LayoutToRender>`
+![image](https://user-images.githubusercontent.com/9575252/179278346-4b88acbb-ac83-46aa-a1b3-d9829f69015d.png)
 
 ### Additional Scripts
 
