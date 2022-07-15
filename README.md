@@ -10,6 +10,7 @@ It's recommended to have a newer version of node available. I have had success w
 
 1. You can test your version of node with `node -v`.
 2. If using an older version of node you can update it by running `nvm install 14.19.1`
+3. If you have `v14.19.1` installed you can use it via `nvm use 14.19.1`
 
 ## Cloning and Installing
 
