@@ -84,6 +84,7 @@ The "dynamic" or default layout is rendered as `<LayoutToRender>`
 
 **Configs for each specific chart are available on the left side of the pages linked below**
 <br>
+
 _This is referencing bar chart configs as an example_
 
 - [Layout Configs](https://plotly.com/javascript/reference/layout/#layout-margin)
@@ -95,9 +96,12 @@ _This is referencing bar chart configs as an example_
 
 - Default Plotly bundle is ~6MB unminified and compiles to just over 2MB
   - There are [different pre-compiled bundles](https://github.com/plotly/plotly.js/blob/master/dist/README.md#partial-bundles) that can be used
-    - Example basic bundle minifies to ~997kb
-    - Example cartesian bundle minifies to 1.2MB and includes 12 chart types
+    - Basic bundle minifies to ~997kb
+    - Cartesian bundle minifies to 1.2MB and includes 12 chart types
   - It is possible to create a [completely customized bundle](https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md) as well
+
+### Remove dependency?
 - We could avoid installing plotly as a dependency and load [from a CDN](https://github.com/plotly/plotly.js#use-the-plotlyjs-cdn-hosted-by-fastly)
+
+### Config wiki or just link to configs?
 - Create configuration details in readme or wiki that exposes the available configurations and chart types
-  - Option: Just link somewhere to configs:
