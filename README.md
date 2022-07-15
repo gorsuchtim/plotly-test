@@ -58,12 +58,6 @@ A "dynamic" layout is defined (hardcoded for now) as the `FAKE_OBJ_VALUE` variab
 
 ---
 
-The "dynamic" or default layout is rendered as `<LayoutToRender>`
-<br>
-![image](https://user-images.githubusercontent.com/9575252/179278048-0cd5bdcf-8daf-4aef-846e-2db2096ae736.png)
-
----
-
 Changing the `FAKE_OBJ_VALUE` value to one of the other options in the `const layouts` object will change which layout is rendered by the app
 <br>
 ![image](https://user-images.githubusercontent.com/9575252/179278258-99c54149-f732-4c33-87a7-8509127244de.png)
