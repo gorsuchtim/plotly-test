@@ -86,8 +86,8 @@ The "dynamic" or default layout is rendered as `<LayoutToRender>`
 <br>
 _This is referencing bar chart configs as an example_
 
-- [Layout Configs] (https://plotly.com/javascript/reference/layout/#layout-margin)
-- [Bar Chart Configs] (https://plotly.com/javascript/reference/bar/)
+- [Layout Configs](https://plotly.com/javascript/reference/layout/#layout-margin)
+- [Bar Chart Configs](https://plotly.com/javascript/reference/bar/)
 
 ## TODO!
 
