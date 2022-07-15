@@ -39,7 +39,7 @@ It's recommended to have a newer version of node available. I have had success w
 - a "dynamic" layout is defined (hardcoded for now) as the `FAKE_OBJ_VALUE` variable
 - the "dynamic" or default layout is rendered as `<LayoutToRender>`
 
-**_Changing the `FAKE_OBJ_VALUE` value to one of the other options in the `const layouts` object will change which layout is rendered by the app_**
+_Changing the `FAKE_OBJ_VALUE` value to one of the other options in the `const layouts` object will change which layout is rendered by the app_
 
 ### Additional Scripts
 
