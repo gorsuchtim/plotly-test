@@ -1,7 +1,7 @@
 import React from "react";
 import Plot from "react-plotly.js";
 
-const ScatterGraph = () => {
+const ScatterChart = () => {
   return (
     <Plot
       data={[
@@ -13,8 +13,8 @@ const ScatterGraph = () => {
           marker: { color: "red" },
         },
       ]}
-      layout={{ width: 1200, height: 640, title: "A Fancy Plot" }}
+      layout={{ width: 1200, height: 640, title: "A Fancy Scatter Chart" }}
     />
   );
 };
-export default ScatterGraph;
+export default ScatterChart;
