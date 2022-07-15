@@ -14,7 +14,7 @@ It's recommended to have a newer version of node available. I have had success w
 
 ## Cloning and Installing
 
-1. In your editor/terminal navigate to the folder you want the repo stored and type `git clone https://github.com/gorsuchtim/parcel2`
+1. In your editor/terminal navigate to the folder you want the repo stored and type `git clone https://github.com/gorsuchtim/plotly-test`
 2. Navigate into the folder via `cd parcel2`
 3. Install all dependencies via `npm install`
 
