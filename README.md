@@ -26,7 +26,7 @@ It's recommended to have a newer version of node available. I have had success w
 
 - `npm start` also creates the `dev` folder in the file tree
 
-### File tree & imports overview
+## File tree & imports overview
 
 1. `app.html` loads in `app.js` via `<script src="./app.js" type="module" defer></script>`
 2. `app.js` defines what container from the html to load the app into
