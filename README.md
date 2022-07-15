@@ -94,10 +94,10 @@ _This is referencing bar chart configs as an example_
 ### Determine which compiled version of Plotly to use
 
 - Default Plotly bundle is ~6MB unminified and compiles to just over 2MB
-  - There are [different pre-compiled bundles] (https://github.com/plotly/plotly.js/blob/master/dist/README.md#partial-bundles) that can be used
+  - There are [different pre-compiled bundles](https://github.com/plotly/plotly.js/blob/master/dist/README.md#partial-bundles) that can be used
     - Example basic bundle minifies to ~997kb
     - Example cartesian bundle minifies to 1.2MB and includes 12 chart types
-  - It is possible to create a [completely customized bundle] (https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md) as well
-- We could avoid installing plotly as a dependency and load [from a CDN] (https://github.com/plotly/plotly.js#use-the-plotlyjs-cdn-hosted-by-fastly)
+  - It is possible to create a [completely customized bundle](https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md) as well
+- We could avoid installing plotly as a dependency and load [from a CDN](https://github.com/plotly/plotly.js#use-the-plotlyjs-cdn-hosted-by-fastly)
 - Create configuration details in readme or wiki that exposes the available configurations and chart types
   - Option: Just link somewhere to configs:
