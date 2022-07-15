@@ -42,7 +42,7 @@ It's recommended to have a newer version of node available. I have had success w
 
 `app-inline.jsx` lazy imports the available layouts and renders these layouts as a mirror to how layouts are rendered via AC results & Chameleon
 <br>
-![image](https://user-images.githubusercontent.com/9575252/179277722-d470d20b-beb7-4791-a1c5-e0b8e6c92088.png)
+![image](https://user-images.githubusercontent.com/9575252/179281182-6a9dac10-deeb-43fe-8503-f07603526c6d.png)
 
 ---
 
