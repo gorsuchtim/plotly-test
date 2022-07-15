@@ -36,6 +36,14 @@ It's recommended to have a newer version of node available. I have had success w
 **Build**
 `npm run build` first lints the files. If linting passes it will format all of the code via prettier. It then will create the production css and javascript files in a `prod` folder in the file tree.
 
+## Layout and Example Chart Configurations
+
+**Configs for each specific chart are available on the left side of the pages linked below**
+_This is referencing bar chart configs as an example_
+
+- [Layout Configs] (https://plotly.com/javascript/reference/layout/#layout-margin)
+- [Bar Chart Configs] (https://plotly.com/javascript/reference/bar/)
+
 ## TODO!
 
 ### Determine which compiled version of Plotly to use
@@ -46,3 +54,5 @@ It's recommended to have a newer version of node available. I have had success w
     - Example cartesian bundle minifies to 1.2MB and includes 12 chart types
   - It is possible to create a [completely customized bundle] (https://github.com/plotly/plotly.js/blob/master/CUSTOM_BUNDLE.md) as well
 - We could avoid installing plotly as a dependency and load [from a CDN] (https://github.com/plotly/plotly.js#use-the-plotlyjs-cdn-hosted-by-fastly)
+- Create configuration details in readme or wiki that exposes the available configurations and chart types
+  - Option: Just link somewhere to configs:
