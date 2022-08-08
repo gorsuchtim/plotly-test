@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 
 import AppInline from "./js/react/apps/app-inline";
 
-const appContainer = document.querySelector("[data-app]");
+const appContainer = document.querySelector("[data-app='plotly-app']");
 
-const ChameleonApp = () => <AppInline />;
+const PlotlyApp = () => <AppInline />;
 
-ReactDOM.render(<ChameleonApp />, appContainer);
+ReactDOM.render(<PlotlyApp />, appContainer);
