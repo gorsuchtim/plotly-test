@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import AppInline from "./js/react/apps/app-inline";
+import PartnerInjection from "./js/react/apps/partner-injection";
 
 const appContainer = document.querySelector("[data-app='plotly-app']");
 
-const PlotlyApp = () => <AppInline />;
+const PlotlyApp = () => <PartnerInjection />;
 
 ReactDOM.render(<PlotlyApp />, appContainer);
