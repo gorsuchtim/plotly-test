@@ -2,7 +2,7 @@
   "name": "plotly-test",
   "version": "1.0.0",
   "description": "",
-  "source": "/src/plotly-app.html",
+  "source": "/src/app/plotly-app.html",
   "scripts": {
     "clean": "rimraf prod",
     "format": "npm run lint && npm run prettier",
